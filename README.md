@@ -1,11 +1,5 @@
-# Cultural Veg
+# Hidden Haiku
 
-desc
+<!-- ## Images -->
 
-## To Use
-
-inst
-
-## Images
-
-![Example image 1](thumb.png)
+<!-- ![Example image 1](thumb.png) -->
