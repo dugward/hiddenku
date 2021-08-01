@@ -1,0 +1,78 @@
+.haiku {
+  padding: 30px 40px 30px 40px;
+  float: left;
+  width: 300px;
+}
+
+.box {
+  max-width: 1200px;
+}
+
+.behind {
+  padding-bottom: 10px;
+  border-bottom: 1px dashed gray;
+  padding-left: 40px;
+}
+
+.list {
+  clear: both;
+  margin-left: 40px;
+  text-align: center;
+  padding: 0.2em;
+  height: 2em;
+  width: 4em;
+}
+
+.enter {
+  clear: both;
+  margin-left: 40px;
+  text-align: center;
+  padding: 0.2em;
+  height: 2em;
+  width: 4em;
+}
+
+.clicked {
+  background: gray;
+  color: white;
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  .enter:hover {
+    background: gray;
+    color: white;
+    cursor: pointer;
+  }
+
+  .list:hover {
+    background: gray;
+    color: white;
+    cursor: pointer;
+  }
+  .haiku:hover {
+    background: gray;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+}
