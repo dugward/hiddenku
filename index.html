@@ -21,6 +21,8 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="https://use.typekit.net/sxv5bsp.css" />
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
@@ -35,22 +37,33 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   </head>
   <body class="site">
-    <div class="behind">You are behind: <span class="behindno">12</span></div>
-    <div class="behind">Total: <span class="totalno">12</span></div>
-    <div class="behind">Found: <span class="foundno">12</span></div>
-    <div class="box">
-      <div class="haikuStage"></div>
-      <div class="list">List</div>
-      <div class="enter">Enter</div>
+    <div class="container">
+      <div class="row haikurow">
+        <div class="haiku">
+          <div class="line1">in a way,</div>
+          <div class="line2">this temple resembles</div>
+          <div class="line3">a rock in snow</div>
+        </div>
+      </div>
+
+      <div class="row attrib">
+        <div class="title">
+          <div class="author">Edwardo Whateverness</div>
+          from
+          <span class="poemtitle"
+            ><a href="#">"The wau that the Ant ate at the ram's eye"</a></span
+          >
+        </div>
+      </div>
+
+      <div class="row again">
+        <span class="material-icons"> replay </span>
+      </div>
     </div>
 
     <!-- scripties
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
 
-    <!-- Add Firebase products that you want to use -->
-    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>

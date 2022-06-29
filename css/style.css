@@ -1,59 +1,51 @@
+.container {
+  width: 95%;
+
+  font-family: p22-stickley-pro-display, serif;
+
+  font-weight: 600;
+
+  font-style: normal;
+}
+
+.row {
+  margin-top: 3em;
+}
+
 .haiku {
-  padding: 30px 40px 30px 40px;
-  float: left;
-  width: 300px;
+  font-size: 1.7em;
+  margin-top: 4em;
 }
 
-.box {
-  max-width: 1200px;
+.attrib {
+  font-family: neue-haas-grotesk-display, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+  font-size: 0.9em;
+  max-width: 80%;
+  letter-spacing: 0.1em;
+  color: gray;
+}
+.author {
+  margin-bottom: 0.3em;
 }
 
-.behind {
-  padding-bottom: 10px;
-  border-bottom: 1px dashed gray;
-  padding-left: 40px;
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px dashed grey;
+  cursor: pointer;
 }
 
-.list {
-  clear: both;
-  margin-left: 40px;
-  text-align: center;
-  padding: 0.2em;
-  height: 2em;
-  width: 4em;
-}
-
-.enter {
-  clear: both;
-  margin-left: 40px;
-  text-align: center;
-  padding: 0.2em;
-  height: 2em;
-  width: 4em;
-}
-
-.clicked {
-  background: gray;
-  color: white;
+.again {
   cursor: pointer;
 }
 
 @media (hover: hover) {
-  .enter:hover {
-    background: gray;
-    color: white;
-    cursor: pointer;
-  }
-
-  .list:hover {
-    background: gray;
-    color: white;
-    cursor: pointer;
-  }
-  .haiku:hover {
-    background: gray;
-    color: white;
-    cursor: pointer;
+  a:hover {
+    color: black;
   }
 }
 

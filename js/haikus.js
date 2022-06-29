@@ -1,4 +1,4 @@
-let haikus = [
+export let haikus = [
   {
     author: "Walt Whitman",
     id: 0.7094449303806339,
@@ -1331,26 +1331,3 @@ let haikus = [
     url: "http://www.poetryfoundation.org/poem/247092",
   },
 ];
-
-function getRandom(arr) {
-  // get random index value
-  const randomIndex = Math.floor(Math.random() * arr.length);
-
-  // get random item
-  const item = arr[randomIndex];
-  document.getElementsByClassName("line1")[0].innerText = item.line1;
-  document.getElementsByClassName("line2")[0].innerText = item.line2;
-  document.getElementsByClassName("line3")[0].innerText = item.line3;
-  document.getElementsByClassName("author")[0].innerText = item.author;
-  document.getElementsByClassName(
-    "poemtitle"
-  )[0].innerHTML = `<a href="${item.url}" 
-  >"${item.title}"</a
->`;
-}
-
-getRandom(haikus);
-
-document.getElementsByClassName("again")[0].addEventListener("click", () => {
-  getRandom(haikus);
-});
