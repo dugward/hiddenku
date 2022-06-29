@@ -1,5 +1,7 @@
 # Hidden Haiku
 
+Haiku like pomegranate seeds.
+
 <!-- ## Images -->
 
-<!-- ![Example image 1](thumb.png) -->
+[A site image](hidden.png)
