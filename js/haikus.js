@@ -709,16 +709,7 @@ export let haikus = [
     title: "Once upon a Time",
     url: "http://www.poetryfoundation.org/poetrymagazine/poem/243776",
   },
-  {
-    author: "Rachel Wetzsteon",
-    id: 0.12758696196662933,
-    line1: " into the heavens",
-    line2: " flew a breathless legion of",
-    line3: " impossible crows.",
-    status: "keep",
-    title: "Blue Octavo Haiku",
-    url: "http://www.poetryfoundation.org/poem/238912",
-  },
+
   {
     author: "George Seferis",
     id: 0.8370403399378663,
@@ -789,16 +780,7 @@ export let haikus = [
     title: "Politics",
     url: "http://www.poetryfoundation.org/poem/171859",
   },
-  {
-    author: "Marilyn Chin",
-    id: 0.8278502389076375,
-    line1: " ancient pond; the frog",
-    line2: " jumps in and in and in: the",
-    line3: " deep slap of water",
-    status: "keep",
-    title: "Twenty Five Haiku",
-    url: "http://www.poetryfoundation.org/poem/248082",
-  },
+
   {
     author: "Chris Abani",
     id: 0.7472798184461072,
